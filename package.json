@@ -1,0 +1,22 @@
+{
+  "name": "apachefy",
+  "version": "0.0.0",
+  "description": "Create a vhost for the current directory",
+  
+  "scripts": {
+    "prepublish": "lib/prepublish.sh"
+  },
+  "keywords": [
+    "server",
+    "apache",
+    "httpd",
+    "vhost"
+  ],
+  "author": "Reda ABDI reda.abdi@backelite.com (http://www.wope-framework.com/)",
+  "license": "BSD",
+
+  "preferGlobal": "true",
+  "bin": {
+    "apachefy" : "lib/apachefy.js"
+  }
+}
