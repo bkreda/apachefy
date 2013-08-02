@@ -37,3 +37,13 @@ to an other folder and create again a new virtual host. BTW the issue was an and
 
 - Each time you run **apachefy** command, the **DocumentRoot** directive is set to the current directory and apache2 is reloaded.
 
+# How to install
+
+The module is currently under development and is not yet published into nmp. Go to the directory containting the module you downloaded and run:
+
+		sudo npm link --unsafe-perm
+
+# How to run?
+
+		sudo apachefy
+
