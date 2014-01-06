@@ -3,11 +3,13 @@ An utility to create quickly an Apache2 virtual host for the current directory. 
 
 # Why this module?
 
-Because I was debugging a web page from a mobile site where I haven't access to source files, 
-I was repeatedly downloading the page and its resources (with firefox) to a local folder 
-and pointing my apache2 virtual host to this folder to debug localy. 
-After investigation I ask the developer in charge of the site to make few changes to that page and then I needed to download it again 
-to an other folder and create again a new virtual host. BTW the issue was an android 2.3 browser :(
+Because I need to be able to launch a server quickly in the current directory. Often, during debug session, I find myself downloading my customer static files and access them through a browser.
+
+# Why apache mod proxy?
+
+Because, I'm often working on mobile application. So I need to access these apps from smartphones without entering the ":" and the port number, which is boring. 
+
+Moreover, it is more convenient when making a demo with non-dev persons.
 
 # How does it work?
 
